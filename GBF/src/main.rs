@@ -16,7 +16,7 @@ fn main() {
             panic!("{}", e);
         });
 
-    let file_name = "write_your_file_lol.gbf";
+    let file_name = "write_your_file_here_lol.gbf";
     let mut interpreter = Interpreter::new();
     if let Err(e) = interpreter.load_commands(file_name) {
         eprintln!("Error loading commands: {}", e);
